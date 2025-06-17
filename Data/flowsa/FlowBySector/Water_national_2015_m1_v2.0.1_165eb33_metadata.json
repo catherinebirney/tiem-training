@@ -1,0 +1,113 @@
+{
+    "tool": "flowsa",
+    "category": "FlowBySector",
+    "name_data": "Water_national_2015_m1",
+    "tool_version": "2.0.1",
+    "git_hash": "165eb33",
+    "ext": "parquet",
+    "date_created": "2023-12-11 21:20:15",
+    "tool_meta": {
+        "method_url": "https://github.com/USEPA/flowsa/blob/165eb33a92089babade76bb96366fa72f183ccb6/flowsa/methods/flowbysectormethods/Water_national_2015_m1.yaml",
+        "primary_source_meta": {
+            "USGS_NWIS_WU": {
+                "tool": "flowsa",
+                "category": "FlowByActivity",
+                "name_data": "USGS_NWIS_WU_2015",
+                "tool_version": "2.0.0",
+                "git_hash": "c31283d",
+                "ext": "parquet",
+                "date_created": "2023-09-06 23:32:29",
+                "tool_meta": {
+                    "method_url": "https://github.com/USEPA/flowsa/blob/c31283d4bb0a3bae698853a0f02af1970b2c0f8b/flowsa/methods/flowbyactivitymethods/USGS_NWIS_WU.yaml",
+                    "data_year": "2015",
+                    "author": "US Geological Survey",
+                    "source_name": "Water Data for the Nation",
+                    "source_url": "https://waterdata.usgs.gov/nwis",
+                    "bib_id": "USGS_NWIS_WU"
+                },
+                "attribution_source_meta": {
+                    "Employment_state_2015": {
+                        "tool": "flowsa",
+                        "category": "FlowBySector",
+                        "name_data": "Employment_state_2015",
+                        "tool_version": "2.0.0",
+                        "git_hash": "c31283d",
+                        "ext": "parquet",
+                        "date_created": "2023-09-07 09:36:47",
+                        "tool_meta": {
+                            "method_url": "https://github.com/USEPA/flowsa/blob/c31283d4bb0a3bae698853a0f02af1970b2c0f8b/flowsa/methods/flowbysectormethods/Employment_state_2015.yaml",
+                            "primary_source_meta": {
+                                "Employment_national_2015": {
+                                    "tool": "flowsa",
+                                    "category": "FlowBySector",
+                                    "name_data": "Employment_national_2015",
+                                    "tool_version": "2.0.0",
+                                    "git_hash": "c31283d",
+                                    "ext": "parquet",
+                                    "date_created": "2023-09-07 06:29:13",
+                                    "tool_meta": {
+                                        "method_url": "https://github.com/USEPA/flowsa/blob/c31283d4bb0a3bae698853a0f02af1970b2c0f8b/flowsa/methods/flowbysectormethods/Employment_national_2015.yaml",
+                                        "primary_source_meta": {
+                                            "BLS_QCEW": {
+                                                "tool": "flowsa",
+                                                "category": "FlowByActivity",
+                                                "name_data": "BLS_QCEW_2015",
+                                                "tool_version": "2.0.0",
+                                                "git_hash": "c31283d",
+                                                "ext": "parquet",
+                                                "date_created": "2023-09-06 20:35:48",
+                                                "tool_meta": {
+                                                    "method_url": "https://github.com/USEPA/flowsa/blob/c31283d4bb0a3bae698853a0f02af1970b2c0f8b/flowsa/methods/flowbyactivitymethods/BLS_QCEW.yaml",
+                                                    "data_year": "2015",
+                                                    "author": "Bureau of Labor Statistics",
+                                                    "source_name": "Quarterly Census of Employment and Wages",
+                                                    "source_url": "https://www.bls.gov/cew/downloadable-data-files.htm",
+                                                    "bib_id": "BLS_QCEW"
+                                                },
+                                                "attribution_source_meta": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "USDA_CoA_Cropland": {
+                        "tool": "flowsa",
+                        "category": "FlowByActivity",
+                        "name_data": "USDA_CoA_Cropland_2017",
+                        "tool_version": "1.3.0",
+                        "git_hash": "4efcd5a",
+                        "ext": "parquet",
+                        "date_created": "2022-12-14 17:21:25",
+                        "tool_meta": {
+                            "method_url": "https://github.com/USEPA/flowsa/blob/4efcd5ab8b7122f9f041ffb9d2ccb593bf834924/flowsa/methods/flowbyactivitymethods/USDA_CoA_Cropland.yaml",
+                            "data_year": "2017",
+                            "author": "US Department of Agriculture",
+                            "source_name": "Census of Agriculture",
+                            "source_url": "https://www.nass.usda.gov/AgCensus/",
+                            "bib_id": "USDA_CoA"
+                        }
+                    },
+                    "USDA_CoA_Livestock": {
+                        "tool": "flowsa",
+                        "category": "FlowByActivity",
+                        "name_data": "USDA_CoA_Livestock_2017",
+                        "tool_version": "1.3.0",
+                        "git_hash": "4efcd5a",
+                        "ext": "parquet",
+                        "date_created": "2022-12-14 17:55:01",
+                        "tool_meta": {
+                            "method_url": "https://github.com/USEPA/flowsa/blob/4efcd5ab8b7122f9f041ffb9d2ccb593bf834924/flowsa/methods/flowbyactivitymethods/USDA_CoA_Livestock.yaml",
+                            "data_year": "2017",
+                            "author": "US Department of Agriculture",
+                            "source_name": "Census of Agriculture",
+                            "source_url": "https://www.nass.usda.gov/AgCensus/",
+                            "bib_id": "USDA_CoA"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

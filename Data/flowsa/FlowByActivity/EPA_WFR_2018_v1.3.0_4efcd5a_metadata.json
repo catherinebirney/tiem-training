@@ -1,0 +1,18 @@
+{
+    "tool": "flowsa",
+    "category": "FlowByActivity",
+    "name_data": "EPA_WFR_2018",
+    "tool_version": "1.3.0",
+    "git_hash": "4efcd5a",
+    "ext": "parquet",
+    "date_created": "2022-12-14 19:56:46",
+    "tool_meta": {
+        "method_url": "https://github.com/USEPA/flowsa/blob/4efcd5ab8b7122f9f041ffb9d2ccb593bf834924/flowsa/methods/flowbyactivitymethods/EPA_WFR.yaml",
+        "data_year": "2018",
+        "author": "EPA Office of Resource Conservation and Recovery",
+        "source_name": "2018 Wasted Food Report Estimates of generation and management of wasted food in the United States in 2018",
+        "source_url": "https://www.epa.gov/sites/default/files/2020-11/documents/2018_wasted_food_report-11-9-20_final_.pdf",
+        "original_data_download_date": "2022-02-09",
+        "bib_id": "EPA_WFR"
+    }
+}

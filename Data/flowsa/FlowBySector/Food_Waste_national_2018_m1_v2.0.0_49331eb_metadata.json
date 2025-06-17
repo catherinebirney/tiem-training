@@ -1,0 +1,100 @@
+{
+    "tool": "flowsa",
+    "category": "FlowBySector",
+    "name_data": "Food_Waste_national_2018_m1",
+    "tool_version": "2.0.0",
+    "git_hash": "49331eb",
+    "ext": "parquet",
+    "date_created": "2023-11-19 14:51:54",
+    "tool_meta": {
+        "method_url": "https://github.com/USEPA/flowsa/blob/49331eb3ea2b26fee1069c6400f71ffc56a1518c/flowsa/methods/flowbysectormethods/Food_Waste_national_2018_m1.yaml",
+        "primary_source_meta": {
+            "EPA_WFR": {
+                "tool": "flowsa",
+                "category": "FlowByActivity",
+                "name_data": "EPA_WFR_2018",
+                "tool_version": "2.0.0",
+                "git_hash": "49331eb",
+                "ext": "parquet",
+                "date_created": "2023-11-19 04:52:59",
+                "tool_meta": {
+                    "method_url": "https://github.com/USEPA/flowsa/blob/49331eb3ea2b26fee1069c6400f71ffc56a1518c/flowsa/methods/flowbyactivitymethods/EPA_WFR.yaml",
+                    "data_year": "2018",
+                    "author": "EPA Office of Resource Conservation and Recovery",
+                    "source_name": "2018 Wasted Food Report Estimates of generation and management of wasted food in the United States in 2018",
+                    "source_url": "https://www.epa.gov/sites/default/files/2020-11/documents/2018_wasted_food_report-11-9-20_final_.pdf",
+                    "original_data_download_date": "2022-02-09",
+                    "bib_id": "EPA_WFR"
+                },
+                "attribution_source_meta": {
+                    "Employment_national_2018": {
+                        "tool": "flowsa",
+                        "category": "FlowBySector",
+                        "name_data": "Employment_national_2018",
+                        "tool_version": "2.0.0",
+                        "git_hash": "49331eb",
+                        "ext": "parquet",
+                        "date_created": "2023-11-19 08:34:26",
+                        "tool_meta": {
+                            "method_url": "https://github.com/USEPA/flowsa/blob/49331eb3ea2b26fee1069c6400f71ffc56a1518c/flowsa/methods/flowbysectormethods/Employment_national_2018.yaml",
+                            "primary_source_meta": {
+                                "BLS_QCEW": {
+                                    "tool": "flowsa",
+                                    "category": "FlowByActivity",
+                                    "name_data": "BLS_QCEW_2018",
+                                    "tool_version": "2.0",
+                                    "git_hash": "49331eb",
+                                    "ext": "parquet",
+                                    "date_created": "2023-11-17 19:08:06",
+                                    "tool_meta": {
+                                        "method_url": "https://github.com/USEPA/flowsa/blob/49331eb3ea2b26fee1069c6400f71ffc56a1518c/flowsa/methods/flowbyactivitymethods/BLS_QCEW.yaml",
+                                        "data_year": "2018",
+                                        "author": "Bureau of Labor Statistics",
+                                        "source_name": "Quarterly Census of Employment and Wages",
+                                        "source_url": "https://www.bls.gov/cew/downloadable-data-files.htm",
+                                        "bib_id": "BLS_QCEW"
+                                    },
+                                    "attribution_source_meta": {}
+                                }
+                            }
+                        }
+                    },
+                    "BLS_QCEW": {
+                        "tool": "flowsa",
+                        "category": "FlowByActivity",
+                        "name_data": "BLS_QCEW_2021",
+                        "tool_version": "2.0",
+                        "git_hash": "49331eb",
+                        "ext": "parquet",
+                        "date_created": "2023-11-17 19:23:39",
+                        "tool_meta": {
+                            "method_url": "https://github.com/USEPA/flowsa/blob/49331eb3ea2b26fee1069c6400f71ffc56a1518c/flowsa/methods/flowbyactivitymethods/BLS_QCEW.yaml",
+                            "data_year": "2021",
+                            "author": "Bureau of Labor Statistics",
+                            "source_name": "Quarterly Census of Employment and Wages",
+                            "source_url": "https://www.bls.gov/cew/downloadable-data-files.htm",
+                            "bib_id": "BLS_QCEW"
+                        }
+                    },
+                    "Census_ASM": {
+                        "tool": "flowsa",
+                        "category": "FlowByActivity",
+                        "name_data": "Census_ASM_2018",
+                        "tool_version": "2.0",
+                        "git_hash": "49331eb",
+                        "ext": "parquet",
+                        "date_created": "2023-11-17 19:25:27",
+                        "tool_meta": {
+                            "method_url": "https://github.com/USEPA/flowsa/blob/49331eb3ea2b26fee1069c6400f71ffc56a1518c/flowsa/methods/flowbyactivitymethods/Census_ASM.yaml",
+                            "data_year": "2018",
+                            "author": "US Census Bureau",
+                            "source_name": "Annual Survey of Manufacturers",
+                            "source_url": "https://www.census.gov/programs-surveys/cbp.html",
+                            "bib_id": "Census_ASM"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

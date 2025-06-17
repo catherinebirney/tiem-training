@@ -1,0 +1,17 @@
+{
+    "tool": "flowsa",
+    "category": "FlowByActivity",
+    "name_data": "EIA_MECS_Energy_2018",
+    "tool_version": "2.0.0",
+    "git_hash": "c31283d",
+    "ext": "parquet",
+    "date_created": "2023-09-06 21:59:43",
+    "tool_meta": {
+        "method_url": "https://github.com/USEPA/flowsa/blob/c31283d4bb0a3bae698853a0f02af1970b2c0f8b/flowsa/methods/flowbyactivitymethods/EIA_MECS_Energy.yaml",
+        "data_year": "2018",
+        "author": "US Energy Information Administration",
+        "source_name": "Manufacturing Energy Consumption Survey",
+        "source_url": "https://www.eia.gov/consumption/manufacturing/",
+        "bib_id": "EIA_MECS"
+    }
+}
